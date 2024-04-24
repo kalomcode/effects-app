@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class UsuarioService {
 
-  private url = 'http://reqres.in/api';
+  private url = 'https://reqres.in/api';
 
   private http = inject(HttpClient);
 
